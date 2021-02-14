@@ -1,0 +1,48 @@
+.toDo-item {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+.delete, .edit {
+    font: 400 10px system-ui;
+    border: 0;
+    border-radius: 5px;
+    background: #E57373;
+    color: #fff;
+    padding: 6px 9px;
+    font-size: 12px;
+    margin: 0 1px;
+}
+
+.edit {
+    background: #9FA8DA;
+}
+
+.delete:hover, .edit:hover {
+    background: #E53935;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background: #3F51B5;
+    color: #fff;
+}
+
+.delete:focus, .edit:focus {
+    outline: none;
+    background: #B71C1C;
+    color: #fff;
+}
+
+.edit:focus {
+    background: #1A237E;
+}
+
+.toDo-span {
+    text-align: start;
+    width: 79%;
+}

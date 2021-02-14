@@ -1,0 +1,38 @@
+.toDo {
+    background: white;
+    max-width: 350px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 0;
+}
+
+.addItem {
+    font: 400 10px system-ui;
+    border: 0;
+    border-radius: 5px;
+    background: #81C784;
+    color: #fff;
+    padding: 6px 9px;
+    font-size: 12px;
+    margin: 0 1px;
+}
+
+.addItem:hover {
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.addItem:focus {
+    outline: none;
+}
+
+.addItem-container {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    padding: 5px;
+}
+
